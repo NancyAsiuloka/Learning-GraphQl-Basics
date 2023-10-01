@@ -23,6 +23,7 @@ const resolvers = {
 // Server Setup
 const server = new ApolloServer({
     typeDefs,
+    resolvers
     // typeDefs --- definitions of types of data
     // resolvers
 });
