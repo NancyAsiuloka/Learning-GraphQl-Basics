@@ -9,7 +9,13 @@ import { typeDefs  } from './schema.js';
 const resolvers = {
     Query: {
         games(){
-            return
+            return db.games
+        },
+        authors(){
+            return db.authors
+        },
+        reviews(){
+            return db.reviews
         }
     }
 }
