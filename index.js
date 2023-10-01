@@ -4,6 +4,10 @@ import { startStandaloneServer } from '@apollo/server/standalone';
 // types
 import { typeDefs  } from './schema.js';
 
+const resolvers = {
+    Query
+}
+
 // Server Setup
 const server = new ApolloServer({
     typeDefs,
