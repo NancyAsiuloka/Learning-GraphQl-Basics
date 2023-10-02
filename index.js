@@ -69,7 +69,7 @@ const resolvers = {
             return db.games.find((g) => g.id === args.id)
         }
     }
-}
+};
 
 // Server Setup
 const server = new ApolloServer({
